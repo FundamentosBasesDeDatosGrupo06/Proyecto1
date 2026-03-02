@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D9277092-39A8-A22B-287B-00F81DDA6792" name="Tipo habitación">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:39:43 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre tipo" id="F8ABFC30-09F4-7E14-5986-98B0068D7375">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:44:43 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo base temporada baja" id="27381D08-8617-007C-6371-4337FA127638">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:44:52 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Costo base temporada alta" id="09B826F5-A510-B11D-742F-21DBE892A21D">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:45:06 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tamaño (m^2)" id="5E0621D0-4C7A-AC66-6450-C819DFB41258">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:45:17 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacidad de personas" id="C4A1A053-A7B4-007A-9C97-6FA50357AEDB">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:45:32 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Tipo de camas" id="4022C3F2-E509-21FF-6F8C-A1D74253FA84">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:45:42 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad de camas" id="F720EF93-35B9-54B1-4E8A-B06388721A9C">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:45:57 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vista" id="2A251059-4743-D110-D182-AAD4E2D851F8">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:46:04 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comodidades incluidas" id="9F7517C4-A8BC-1368-3D7A-14CBA256AB0B">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:46:14 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

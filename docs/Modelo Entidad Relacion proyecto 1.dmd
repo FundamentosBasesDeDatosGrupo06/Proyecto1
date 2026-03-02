@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo Entidad Relacion proyecto 1" id="9103CCA0-ECF3-41D5-C8EC-3435C1DE7C5E" version="3.5">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:31:55 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9103CCA0-ECF3-41D5-C8EC-3435C1DE7C5E</designId>
+</OSDM_Design>

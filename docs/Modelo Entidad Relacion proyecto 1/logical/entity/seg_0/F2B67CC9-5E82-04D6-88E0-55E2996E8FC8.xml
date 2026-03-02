@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F2B67CC9-5E82-04D6-88E0-55E2996E8FC8" name="Usuario">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:32:00 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombres" id="2E8D0A9B-FA3D-DE58-BCC1-1FB80A2E8C0C">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:32:13 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="1FCD8691-2DA7-AFC2-F9A1-669EF49FBF71">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:32:25 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="6DF8D579-3699-1518-8179-A0B6E26E6091">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:32:34 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="B3B0A229-7225-F758-B306-DB31FB7EB6F8">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:32:43 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Documento de identidad" id="A8CFD488-0973-AEF0-E528-4D5B14B8DD29">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 16:33:03 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

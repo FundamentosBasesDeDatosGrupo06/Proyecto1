@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ciudad hotel" directorySegmentName="seg_0" id="BDA2DCFA-7A07-2A70-11B0-B91952218CE4">
+<createdBy>dante</createdBy>
+<createdTime>2026-03-01 17:55:51 UTC</createdTime>
+<ownerDesignName>Modelo Entidad Relacion proyecto 1</ownerDesignName>
+<engineerTo>
+<item key="D8A8F118-212B-E3F6-2AB2-AC9BCF93EEDF" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>22AC3ED8-9F7C-49E8-18B1-832513D187F8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4D65D9F7-FE60-336F-B1C6-9658AF96D1AB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
